@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Whitney, Helvetica Neue, Helvetica, Arial,sans-serif;
+	font-size: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+svg {
+	display: block;
+}
+
+
+/* utility classes */
+
+.container-600 {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.container-900 {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.col-30 {
+	float: left;
+	width: 30%;
+}
+
+.col-70 {
+	float: left;
+	width: 70%;
+}
+
+.pt-100 {
+	padding-top: 100px;
+}
+
+.pr-30 {
+	padding-right: 30px;
+}
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+
+.pl-30 {
+	padding-left: 30px;
+}
+
+.bkg-grey {
+	background-color: grey;
+}
+
+.btn {
+	display: inline-block;
+	padding: 1em;
+	border-radius: 10em;
+}
+
+.btn:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+.btn-white {
+	background-color: white;
+	color: black;
+}
+
+.btn-black {
+	background-color: black;
+}
+
+.btn-blue {
+	background-color: blue;
+}
+
+
+
+
+/* specific styles */
+
+
+header {
+	background-color: #3161E0;
+	line-height: 5rem;
+}
+
+.top-bar > * {
+	float: left;
+}
+
+.top-bar .logo-nav img {
+	width: 124px;
+	vertical-align: middle;
+}
+
+.top-bar .btn-accedi .btn {
+	vertical-align: middle;
+	line-height: 1.2em;
+}
+
+.nav-main {
+	width: calc(100% - 124px - 100.1px);
+}
+
+.nav-main ul {
+	list-style: none;
+}
+
+.nav-main li {
+	display: inline-block;
+	line-height: 5rem;
+	padding: 0 1em
+}
+
+/* section hero */
+.hero {
+	min-height: 530px;
+	background-image: url(../img/jumbo.png);
+	background-size: cover;
+	background-position: left;
+	position: relative;
+	color: white;
+	line-height: 1.5;
+}
+
+.hero .content-hero {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+	margin-bottom: 1em;
+}
+
+.hero p {
+	margin-bottom: 1em;
+}
+
+
+/* sections */
+
+section img {
+	width: 100%;
+}
+
+.wave-1hkxOo path {
+	fill: grey;
+}
+
+.wave-2 {
+	transform: rotate(180deg);
+}
